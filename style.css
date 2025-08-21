@@ -1,0 +1,376 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.site-header{
+  position: absolute;   
+  top: 0; left: 0; right: 0;
+  z-index: 10;
+}
+
+.intro{
+  background: url("./assets/Background_Intro.svg") no-repeat center top;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+  
+}
+
+.contact{
+  background: url("./assets/Background_Contacts.svg") no-repeat center top;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+  
+}
+
+.intro1{ 
+  width: 100%;
+  
+}
+
+.container-1{
+  width:1040px ;
+  height:447px ;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+h1{
+  color: #E2E4E9;
+  text-align: center;
+  font-family:" Asap",sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 120%; 
+}
+
+.site-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-top: 80px;
+}
+
+#rosto{
+  display: flex;
+  justify-content: center;
+  
+}
+
+ul{
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+li{
+  border-radius: 999px;
+  background: #292C34;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  
+  height:40px ;
+}
+.span-site-nav{
+  color:#C0C4CE;
+  text-align: center; 
+  font-family: "Maven Pro",sans-serif;
+  font-size: 16px;  
+  font-weight: 400;
+  
+}
+
+p{
+  color: #878EA1;
+  text-align: center;  
+  font-family: "Maven Pro",sans-serif;
+  font-size: 14px;  
+  font-weight: 400;    
+}
+
+.Hello{
+  color:  #C0C4CE;
+  text-align: center;
+  font-family:" Inconsolata", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 64px;
+}
+
+span{
+  color: #E3646E;
+  font-family: "Inconsolata",sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.faceVector{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faceVector{
+  position: relative;
+}
+
+#vector{
+  position: absolute; 
+  z-index: 10;
+  right: -10px;
+  bottom: 0;
+}
+
+#setaParaBaixo{ 
+  margin-top:94px;
+  margin-bottom:57px;
+}
+
+#positionArrow{
+  width:1040px;
+  display: flex;
+  justify-content: center;
+}
+
+#projetos{
+  width: 100%;
+  height: 701px;
+  background-color:#16181D ;  
+  display: flex;
+  justify-content: center;
+  margin-top: 945px;
+}
+
+.eyebrow{
+  color: #BB72E9;
+  text-align: center;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 20px;
+  font-weight: 400;  
+}
+
+#titulo-projetos{
+  color:  #E2E4E9;
+  text-align: center;  
+  font-family: "Asap",sans-serif;
+  font-size: 24px; 
+  font-weight: 700;  
+}
+
+.container-2{
+  width:1040px ;
+  height:584px ;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.projects__grid{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  width: 1126px;
+ 
+}
+
+.project-card{
+  padding: 12px;
+  width: 298px;
+  height: 256px;
+  border-radius: 12px;
+  background: #292C34;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card__title{
+  color: #E2E4E9;  
+  font-family: "Asap", sans-serif;
+  font-size: 16px;  
+  font-weight: 700;
+  margin-top: 3px;
+}
+
+img{
+  border-radius:12px ;
+}
+
+.project-card__body{
+  display: flex;
+
+  flex-direction: column; 
+  align-items: flex-start; 
+  height: 75px;
+  margin-top: 8px;
+}
+
+
+.project-card__desc{
+  margin-top: 8px;
+  text-align: left;
+
+}
+#servicos{
+  width: 100%;
+  height: 480px;
+  display: flex;
+ 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+  
+  background:#0D0E11;
+}
+
+.services__grid{
+  display: flex;
+  justify-content: center;
+
+  gap: 54px;
+  margin-top: 56px;
+}
+
+.service-card{
+  width: 284px;
+  height:159px ;
+  padding: 20px;
+}
+
+#titulo-servicos{
+  color:  #E2E4E9;
+  text-align: center;  
+  font-family: "Asap", sans-serif;
+  font-size: 24px;  
+  font-weight: 700;  
+}
+.service-card__title{
+  color: #E2E4E9;
+  font-family: "Asap",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+
+}
+
+.service-card__desc{
+  color:  #C0C4CE;
+  font-family: "Maven Pro",sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+#contato{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container-4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.social{
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+}
+.social__item{
+  width: 400px;
+  height: 68px;
+  border-radius: 4px;
+  border-radius: 8px;
+  background: #292C34;
+  display: flex;  
+  justify-content: space-between;
+ 
+}
+
+.social__button{
+    width: 400px;
+  height: 68px;
+  border-radius: 4px;
+  border-radius: 8px;
+  background: #292C34;
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+ 
+  text-decoration: none;
+  
+}
+
+.span-social{
+  color:#C0C4CE;
+  font-family: "Maven Pro",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+div{
+  display: flex;
+  align-items: center;
+  gap:12px;
+}
+
+#titulo-contato{
+  color:  #E2E4E9;
+  text-align: center;
+  font-family:"Asap",sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.contact__subtitle{
+  color:  #C0C4CE;
+  text-align: center;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#titulo-contato{
+  color: #E2E4E9;
+  text-align: center; 
+  font-family: "Asap", sans-serif;
+  font-size: 24px;
+  font-weight: 700; 
+}
+
+.div-services{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  }
