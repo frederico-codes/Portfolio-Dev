@@ -17,7 +17,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;   
+  position: relative;
+  padding-bottom:150px;   
 }
 
 .contact{
@@ -148,7 +149,7 @@ span{
   background-color:#16181D ;  
   display: flex;
   justify-content: center;
-  margin-top: 945px;
+  margin-top: 815px;
 }
 
 .eyebrow{
